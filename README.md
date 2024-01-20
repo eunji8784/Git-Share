@@ -26,7 +26,7 @@
 5. Pull Request가 작성되면 작성자 이외의 다른 팀원이 Code Review를 한다.
 6. Code Review가 완료되면 Pull Request 작성자가 develop branch로 Merge 한다.
 7. Merge가 끝난 후에는 해당 Issue를 Close한다.
-8. remote - develop branch에 새로운 코드가 Merge 될 때마다 모든 팀원 develop pull 받아 최신 상태를 유지한다.
+8. remote - develop branch에 새로운 코드가 Merge 될 때마다 모든 팀원 local - develop pull 받아 최신 상태를 유지한다.
 9. main은 모든 작업이 끝난 후 develop에서 Merge 시킨다.
 ```
 
