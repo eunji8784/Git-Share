@@ -19,7 +19,7 @@
 
 # 💡 Git Flow
 ```
-1. develop 브랜치를 생성한다.
+1. develop 브랜치를 생성한다. (초기에 한번)
 2. Issue를 생성한다.
 3. develop branch base의 local - feature branch를 생성한다.
 4. Add - Commit - Push - Pull Request 의 과정을 거친다.
@@ -68,6 +68,7 @@
 | develop | 제품 출시 전 개발 브랜치 |
 | feature | 기능 개발 브랜치 (develop base) |
 | fix | 개발 과정에서 발생한 버그를 수정하는 브랜치 (develop base) |
+| hotfix | 출시 버전에서 발생한 버그를 수정하는 브랜치 |
 | refactor | 기능 수정 없이 코드의 품질만 개선하는 브랜치 (develop base) |
 
 ## ✏️ Branch 네이밍 규칙
